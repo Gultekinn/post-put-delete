@@ -1,0 +1,126 @@
+body{
+    height: 50%;
+    background-color: black;
+  
+}
+.navbar{
+    width: 1005;
+    height: 70PX;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar__logo p{
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+.card{
+    width: 500px;
+    height: 650px;
+    border-radius: 8px;
+    border: solid;
+    margin: 40px 60px;
+   
+background-color: rgb(21, 39, 66);
+
+}
+.card_img{
+    display: flex;
+}
+.card form{
+    padding: 20px 20px;
+    
+}
+.common{
+    display: flex;
+    justify-content: space-around;
+}
+.card input{
+    width: 350px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    height: 33px;
+    background-color: transparent;
+}
+.card button{
+    background: orange;
+    font-size: 19px;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    height: 35px;
+    
+
+}
+
+.card_img img{
+    width: 160px;
+    height: 250px;
+}
+.card_button{
+    display: flex;
+    gap: 20px;
+cursor: pointer;
+}
+.card_data{
+    margin-top: 20px;
+    text-align: center;
+}
+.card_data i{
+    margin-top: 15px;
+}
+h3{
+    font-size: 25px;
+    color: white;
+}
+.span{
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
+}
+.card_button button{
+    width: 85px;
+    height: 35px;
+    background: transparent;
+    border:1px  solid gray;
+    margin-top: 10px;
+    color: white;
+    
+}
+.end{
+    padding: 7px 20px;
+}
+
+.end2{
+    padding: 0 20px;
+}
+.end h3{
+    color: white;
+  
+}
+.end2 h3{
+    color: white;
+    
+}
+
+.end p{
+    color: rgb(93, 90, 90);
+}
+
+.end2 p{
+    color: rgb(86, 83, 83);
+}
